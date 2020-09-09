@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="github" 
+        fetch="https://github.com" />
+
+    <remote name="gitlab"  
+        fetch="https://gitlab.com" />
+
+    <remote name="xtended" 
+        fetch="https://github.com/Project-Xtended" 
+        revision="refs/heads/xr" />
+
+    <remote name="Xtended-Devices" 
+        fetch="https://github.com/Xtended-Devices" 
+        revision="refs/heads/xr" />
+
+    <!-- General Repos -->
+    <project path="manifest" name="manifest" remote="xtended" />
+    <project path="art" name="art" remote="xtended" />
+    <project path="bionic" name="bionic" remote="xtended" />
+
+    <!-- Build Repos -->
+    <project path="build/make" name="build" remote="xtended" >
+        <copyfile src="core/root.mk" dest="Makefile" />
+        <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+        <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+        <linkfile src="core" dest="build/core" />
+        <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+        <linkfile src="target" dest="build/target" />
+        <linkfile src="tools" dest="build/tools" />
+    </project>
+    <project path="build/soong" name="build_soong"  remote="xtended" >
+        <linkfile src="root.bp" dest="Android.bp" />
+        <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+    </project>
+
+    <!-- device Repos -->
+    <project path="device/xtended/sepolicy" name="device_xtended_sepolicy" remote="xtended" />
+    <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="xtended" />
+
+    <!-- External Repos -->
+    <project path="external/guice" name="external_guice" remote="xtended" />
+    <project path="external/selinux" name="external_selinux" remote="xtended" />
+    <project path="external/libcxx" name="external_libcxx" remote="xtended" />
+    <project path="external/tinycompress" name="external_tinycompress" remote="xtended" />
+
+    <!-- Frameworks repos -->
+    <project path="frameworks/av" name="frameworks_av" remote="xtended" />
+    <project path="frameworks/base" name="frameworks_base" remote="xtended" />
+    <project path="frameworks/native" name="frameworks_native" remote="xtended" />
+
+    <!-- Hardware Repos -->
+    <project path="hardware/xtended/interfaces" name="hardware_xtended_interfaces" remote="xtended" />
+    <project path="hardware/libhardware" name="hardware_libhardware" remote="xtended" />
+    <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="xtended" />
+
+    <!-- Packages Repos -->
+    <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="xtended" />
+    <project path="packages/apps/Settings" name="packages_apps_Settings"  remote="xtended" />
+
+    <!--Prebuilts -->
+    <project path="prebuilts/tools-xtended" name="prebuilts_tools-xtended" remote="xtended" clone-depth="1" />
+    <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="xtended" clone-depth="1" />
+    <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" remote="xtended" clone-depth="1" />
+    <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="xtended" clone-depth="1" />
+
+    <!-- System Repos -->
+    <project path="system/apex" name="system_apex" remote="xtended" />
+    <project path="system/bt" name="system_bt" remote="xtended" />
+    <project path="system/core" name="system_core" remote="xtended" />
+    <project path="system/incremental_delivery" name="system_incremental_delivery" remote="xtended" />
+
+    <!--Tools repos-->
+    <project path="tools/metalava" name="tools_metalava" remote="xtended" />
+
+    <!-- Vendor Repo -->
+    <project path="vendor/xtended" name="vendor_xtended" remote="xtended" />
+
+</manifest>
