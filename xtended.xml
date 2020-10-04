@@ -66,6 +66,7 @@
 
     <!-- Packages Repos -->
     <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="xtended" />
+    <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="xtended" />
     <project path="packages/apps/Settings" name="packages_apps_Settings"  remote="xtended" />
     <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence"  remote="xtended" />
     <project path="packages/apps/Traceur" name="packages_apps_Traceur"  remote="xtended" />
