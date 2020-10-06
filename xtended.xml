@@ -41,6 +41,7 @@
     <project path="device/xtended/sepolicy" name="device_xtended_sepolicy" remote="xtended" />
     <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="xtended" />
     <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="xtended" />
+    <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="xtended" />
 
     <!-- External Repos -->
     <project path="external/guice" name="external_guice" remote="xtended" />
@@ -59,10 +60,12 @@
     <project path="frameworks/native" name="frameworks_native" remote="xtended" />
 
     <!-- Hardware Repos -->
-    <project path="hardware/xtended/interfaces" name="hardware_xtended_interfaces" remote="xtended" />
+    <project path="hardware/interfaces" name="hardware_interfaces" remote="xtended" />
     <project path="hardware/libhardware" name="hardware_libhardware" remote="xtended" />
     <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="xtended" />
-    <project path="hardware/interfaces" name="hardware_interfaces" remote="xtended" />
+    <project path="hardware/ril" name="hardware_ril" remote="xtended" />
+    <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="xtended" />
+    <project path="hardware/xtended/interfaces" name="hardware_xtended_interfaces" remote="xtended" />
 
     <!-- Packages Repos -->
     <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="xtended" />
@@ -70,7 +73,10 @@
     <project path="packages/apps/Settings" name="packages_apps_Settings"  remote="xtended" />
     <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence"  remote="xtended" />
     <project path="packages/apps/Traceur" name="packages_apps_Traceur"  remote="xtended" />
+    <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker"  remote="xtended" />
+    <project path="packages/apps/Xtensions" name="packages_apps_Xtensions"  remote="xtended" />
     <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider"  remote="xtended" />
+    <project path="packages/services/Telephony" name="packages_services_Telephony"  remote="xtended" />
 
     <!--Prebuilts -->
     <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="xtended" clone-depth="1" />
@@ -84,7 +90,10 @@
     <project path="system/bt" name="system_bt" remote="xtended" />
     <project path="system/core" name="system_core" remote="xtended" />
     <project path="system/incremental_delivery" name="system_incremental_delivery" remote="xtended" />
+    <project path="system/libufdt" name="system_libufdt" remote="xtended" />
     <project path="system/sepolicy" name="system_sepolicy" remote="xtended" />
+    <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="xtended" />
+    <project path="system/update_engine" name="system_update_engine" remote="xtended" />
     <project path="system/vold" name="system_vold" remote="xtended" />
 
     <!--Tools repos-->
