@@ -37,6 +37,9 @@
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
 
+    <!-- Development -->
+    <project path="development" name="development" remote="xtended" />
+
     <!-- device Repos -->
     <project path="device/xtended/sepolicy" name="device_xtended_sepolicy" remote="xtended" />
     <project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="xtended" />
