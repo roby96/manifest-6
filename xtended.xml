@@ -56,6 +56,7 @@
     <project path="external/libpng" name="external_libpng" remote="xtended" />
     <project path="external/libjpeg-turbo" name="external_libjpeg-turbo" remote="xtended" />
     <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="xtended" />
+    <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="xtended" />
 
     <!-- Frameworks repos -->
     <project path="frameworks/av" name="frameworks_av" remote="xtended" />
