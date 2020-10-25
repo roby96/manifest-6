@@ -62,6 +62,7 @@
     <project path="frameworks/av" name="frameworks_av" remote="xtended" />
     <project path="frameworks/base" name="frameworks_base" remote="xtended" />
     <project path="frameworks/native" name="frameworks_native" remote="xtended" />
+    <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="xtended" />
 
     <!-- Hardware Repos -->
     <project path="hardware/interfaces" name="hardware_interfaces" remote="xtended" />
@@ -114,5 +115,10 @@
     <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="vendor_qcom_opensource_commonsys_bluetooth_ext" remote="xtended" />
     <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_packages_apps_Bluetooth" remote="xtended" />
     <project path="vendor/qcom/opensource/commonsys/system/bt" name="vendor_qcom_opensource_commonsys_system_bt" remote="xtended" />
+    <project path="vendor/qcom/opensource/fm-commonsys" name="vendor_qcom_opensource_fm-commonsys" remote="xtended" />
+    <project path="vendor/qcom/opensource/healthd-ext" name="vendor_qcom_opensource_healthd-ext" remote="xtended" />
     <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="xtended" />
+    <project path="vendor/qcom/opensource/usb" name="vendor_qcom_opensource_usb" remote="xtended" />
+    <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="xtended" />
+
 </manifest>
