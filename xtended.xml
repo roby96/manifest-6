@@ -84,6 +84,7 @@
     <project path="packages/apps/ThemePicker" name="packages_apps_ThemePicker"  remote="xtended" />
     <project path="packages/apps/Xtensions" name="packages_apps_Xtensions"  remote="xtended" />
     <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider"  remote="xtended" />
+    <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="xtended" />
     <project path="packages/services/Telephony" name="packages_services_Telephony"  remote="xtended" />
     <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="xtended" />
 
