@@ -64,6 +64,7 @@
     <project path="frameworks/base" name="frameworks_base" remote="xtended" />
     <project path="frameworks/native" name="frameworks_native" remote="xtended" />
     <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="xtended" />
+    <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="xtended" />
 
     <!-- Hardware Repos -->
     <project path="hardware/interfaces" name="hardware_interfaces" remote="xtended" />
