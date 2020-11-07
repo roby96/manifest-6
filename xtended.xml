@@ -74,6 +74,9 @@
     <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="xtended" />
     <project path="hardware/xtended/interfaces" name="hardware_xtended_interfaces" remote="xtended" />
     <project path="hardware/qcom-caf/wlan" name="hardware_qcom_wlan" remote="xtended" revision="xr-caf" />
+    <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_audio" remote="xtended" revision="xr-msm8996" />
+    <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_display" remote="xtended" revision="xr-msm8996" />
+    <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_media" remote="xtended" revision="xr-msm8996" />
     <project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_audio" remote="xtended" revision="xr-msm8998" />
     <project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_display" remote="xtended" revision="xr-msm8998" />
     <project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_media" remote="xtended" revision="xr-msm8998" />
