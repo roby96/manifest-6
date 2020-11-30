@@ -132,6 +132,7 @@
     <!-- Vendor Repo -->
     <project path="vendor/xtended" name="vendor_xtended" remote="xtended" />
     <project path="vendor/xtras" name="vendor_xtras" remote="xtended" />
+    <project path="vendor/google/gms" name="vendor_google_gms" remote="xtended-gitlab" />
     <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="vendor_qcom_opensource_commonsys-intf_bluetooth" remote="xtended" />
     <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="vendor_qcom_opensource_commonsys_bluetooth_ext" remote="xtended" />
     <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="vendor_qcom_opensource_packages_apps_Bluetooth" remote="xtended" />
