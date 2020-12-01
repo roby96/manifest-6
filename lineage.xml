@@ -59,6 +59,7 @@
   <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom_thermal" remote="lineage" revision="lineage-17.1" />
   <project path="hardware/qcom-caf/vr" name="android_hardware_qcom_vr" remote="lineage" revision="lineage-17.1" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="lineage" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="lineage" />
 
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="lineage" />
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="lineage" />
