@@ -107,6 +107,7 @@
     <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="xtended" />
     <project path="packages/services/Telephony" name="packages_services_Telephony"  remote="xtended" />
     <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="xtended" />
+    <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="xtended" />
 
     <!--Prebuilts -->
     <project path="prebuilts/abi-dumps/vndk" name="prebuilts_abi-dumps_vndk" remote="xtended" clone-depth="1" />
