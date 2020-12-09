@@ -126,6 +126,7 @@
     <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="xtended" />
     <project path="system/update_engine" name="system_update_engine" remote="xtended" />
     <project path="system/vold" name="system_vold" remote="xtended" />
+    <project path="system/netd" name="system_netd" remote="xtended" />
 
     <!--Tools repos-->
     <project path="tools/metalava" name="tools_metalava" remote="xtended" />
