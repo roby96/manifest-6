@@ -21,6 +21,9 @@
     <!-- Device -->
     <remove-project name="device/amlogic/yukawa" />
     <remove-project name="device/amlogic/yukawa-kernel" />
+    <remove-project name="device/google/bramble" />
+    <remove-project name="device/google/bramble-kernel" />
+    <remove-project name="device/google/bramble-sepolicy" />
     <remove-project name="device/common" />
     <remove-project name="device/generic/arm64" />
     <remove-project name="device/generic/armv7-a-neon" />
@@ -46,6 +49,9 @@
     <remove-project name="device/google/coral" />
     <remove-project name="device/google/coral-kernel" />
     <remove-project name="device/google/coral-sepolicy" />
+    <remove-project name="device/google/redfin" />
+    <remove-project name="device/google/redfin-kernel" />
+    <remove-project name="device/google/redfin-sepolicy" />
     <remove-project name="device/google/sunfish" />
     <remove-project name="device/google/sunfish-kernel" />
     <remove-project name="device/google/sunfish-sepolicy" />
