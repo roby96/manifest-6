@@ -72,7 +72,6 @@
     <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="xtended" />
 
     <!-- Hardware Repos -->
-    <project path="hardware/qcom/data/ipacfg-mgr" name="hardware_qcom_data_ipacfg-mgr" remote="xtended" />
     <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" remote="xtended" />
     <project path="hardware/interfaces" name="hardware_interfaces" remote="xtended" />
     <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="xtended" />
