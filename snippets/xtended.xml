@@ -122,7 +122,6 @@
   <project path="tools/metalava" name="tools_metalava" remote="xtended" />
 
   <!-- Vendor repos -->
-  <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom_opensource_dataservices" remote="xtended" />
   <project path="vendor/qcom/opensource/interfaces" name="vendor_qcom_opensource_interfaces" remote="xtended" />
 
 </manifest>
