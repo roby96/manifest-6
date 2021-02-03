@@ -26,7 +26,7 @@
     <project path="bionic" name="bionic" remote="xtended" />
 
     <!-- Build Repos -->
-    <project path="build/make" name="build" remote="xtended" >
+    <project path="build/make" name="build" remote="xtended" revision="r31" >
         <copyfile src="core/root.mk" dest="Makefile" />
         <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
         <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -65,15 +65,15 @@
     <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="xtended" />
 
     <!-- Frameworks repos -->
-    <project path="frameworks/av" name="frameworks_av" remote="xtended" />
-    <project path="frameworks/base" name="frameworks_base" remote="xtended" />
-    <project path="frameworks/native" name="frameworks_native" remote="xtended" />
+    <project path="frameworks/av" name="frameworks_av" remote="xtended" revision="r31" />
+    <project path="frameworks/base" name="frameworks_base" remote="xtended" revision="r31" />
+    <project path="frameworks/native" name="frameworks_native" remote="xtended" revision="r31" />
     <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="xtended" />
     <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="xtended" />
 
     <!-- Hardware Repos -->
     <project path="hardware/google/pixel-sepolicy" name="hardware_google_pixel-sepolicy" remote="xtended" />
-    <project path="hardware/interfaces" name="hardware_interfaces" remote="xtended" />
+    <project path="hardware/interfaces" name="hardware_interfaces" remote="xtended" revision="r31" />
     <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" remote="xtended" />
     <project path="hardware/ril" name="hardware_ril" remote="xtended" />
     <project path="hardware/nxp/nfc" name="hardware_nxp_nfc" remote="xtended" />
@@ -87,14 +87,14 @@
     <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_media" remote="xtended" revision="xr-sm8150" /> 
 
     <!-- Packages Repos -->
-    <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="xtended" />
+    <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="xtended" revision="r31" />
     <project path="packages/apps/CustomDoze" name="packages_apps_CustomDoze" remote="xtended" />
     <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="xtended" />
     <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="xtended" />
-    <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="xtended" />
+    <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="xtended" revision="r31" />
     <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="xtended" />
     <project path="packages/apps/Plugins" name="packages_apps_Plugins" remote="xtended" />
-    <project path="packages/apps/Settings" name="packages_apps_Settings"  remote="xtended" />
+    <project path="packages/apps/Settings" name="packages_apps_Settings"  remote="xtended" revision="r31" />
     <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence"  remote="xtended" />
     <project path="packages/apps/Snap" name="packages_apps_Snap"  remote="xtended" />
     <project path="packages/apps/Traceur" name="packages_apps_Traceur"  remote="xtended" />
@@ -102,8 +102,8 @@
     <project path="packages/apps/Xtensions" name="packages_apps_Xtensions"  remote="xtended" />
     <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider"  remote="xtended" />
     <project path="packages/services/OmniJaws" name="packages_services_OmniJaws" remote="xtended" />
-    <project path="packages/services/Telephony" name="packages_services_Telephony"  remote="xtended" />
-    <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="xtended" />
+    <project path="packages/services/Telephony" name="packages_services_Telephony"  remote="xtended" revision="r31" />
+    <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="xtended" revision="r31" />
     <project path="packages/apps/WallpaperPicker2" name="packages_apps_WallpaperPicker2" remote="xtended" />
 
     <!--Prebuilts -->
@@ -115,8 +115,8 @@
 
     <!-- System Repos -->
     <project path="system/apex" name="system_apex" remote="xtended" />
-    <project path="system/bt" name="system_bt" remote="xtended" />
-    <project path="system/core" name="system_core" remote="xtended" />
+    <project path="system/bt" name="system_bt" remote="xtended" revision="r31" />
+    <project path="system/core" name="system_core" remote="xtended" revision="r31" />
     <project path="system/incremental_delivery" name="system_incremental_delivery" remote="xtended" />
     <project path="system/libufdt" name="system_libufdt" remote="xtended" />
     <project path="system/sepolicy" name="system_sepolicy" remote="xtended" />
