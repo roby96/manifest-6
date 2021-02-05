@@ -82,9 +82,6 @@
     <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_audio" remote="xtended" revision="xr-msm8996" />
     <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_display" remote="xtended" revision="xr-msm8996" />
     <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_media" remote="xtended" revision="xr-msm8996" />
-    <project path="hardware/qcom-caf/sm8150/audio" name="hardware_qcom-caf_audio" remote="xtended" revision="xr-sm8150" />
-    <project path="hardware/qcom-caf/sm8150/display" name="hardware_qcom-caf_display" remote="xtended" revision="xr-sm8150" />
-    <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_media" remote="xtended" revision="xr-sm8150" /> 
 
     <!-- Packages Repos -->
     <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="xtended" />
